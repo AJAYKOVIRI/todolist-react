@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: fantasy;
+  background-color: black;
+}
+
+code {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+  border-radius: 50px;
+  font-size: 2rem;
+}
+h4{
+  color: green;
+  font-size: 2rem;
+}
+h5{
+  color: brown;
+  font-size: 3rem;
+  margin:100px;
+}
+input[type="submit"]{
+  /* background-color:; */
+  padding: 0px 20px 0px 20px;
+}
+button{
+  background-color:red;
+  color:white;
+  padding:2px;
+  border-radius: 3px;
+}
+
+input:hover{
+  background-color: green;
+  transition: 0.5s
+}
+
+#task-text:hover{
+  background-color: bisque;
+}
